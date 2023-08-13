@@ -15,7 +15,10 @@ body {
     color: #d8dee9;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% auto;
+    width:100%;
+    height:100%;
+
 }
 
 .setLeft{
