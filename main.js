@@ -48,7 +48,7 @@ function setBgGreet() {
     clock.textContent = 'Good Evening';
   } else {
     // Evening
-    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/Gingeh/wallpapers/main/patterns/line_icons.png')";
+    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/Gingeh/wallpapers/main/gradients/bkg3_bkg5.png')";
     clock.textContent = 'Good night';
     document.body.style.color = 'white';
   }
