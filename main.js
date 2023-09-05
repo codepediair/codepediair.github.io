@@ -40,15 +40,15 @@ function setBgGreet() {
 
   if (hour < 12) {
     // Morning
-    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/ign_astronaut.png')";
+    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/Gingeh/wallpapers/main/misc/cat-sound.png')";
     clock.textContent = 'Good morning';
   } else if (hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/BirdNord.png')";
+    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/Gingeh/wallpapers/main/landscapes/evening-sky.png')";
     clock.textContent = 'Good Evening';
   } else {
     // Evening
-    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/waves.jpg')";
+    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/Gingeh/wallpapers/main/patterns/line_icons.png')";
     clock.textContent = 'Good night';
     document.body.style.color = 'white';
   }
